@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隐私政策 - Sipra</title>
+    <style>
+        :root {
+            --primary: #3498DB;
+            --secondary: #00BCD4;
+            --bg: #000000;
+            --surface: rgba(28, 28, 30, 0.7);
+            --border: rgba(255, 255, 255, 0.1);
+            --text-main: #FFFFFF;
+            --text-sec: #86868B;
+        }
+
+        html {
+            background: #000000;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        body {
+            font-family: "Inter", -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+            line-height: 1.8;
+            color: var(--text-main);
+            background: linear-gradient(180deg, #000000 0%, #0A192F 100%);
+            padding: 60px 20px;
+            min-height: 100vh;
+        }
+
+        .gradient-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background:
+                radial-gradient(circle at 10% 10%, rgba(84, 166, 255, 0.05) 0%, transparent 40%),
+                radial-gradient(circle at 90% 90%, rgba(0, 212, 170, 0.05) 0%, transparent 40%);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--surface);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            padding: 60px;
+            border-radius: 32px;
+            border: 1px solid var(--border);
+        }
+
+        h1 {
+            font-size: 42px;
+            font-weight: 800;
+            margin-bottom: 12px;
+            text-align: center;
+            letter-spacing: -1px;
+            background: linear-gradient(to bottom, #fff 0%, #aaa 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        h2 {
+            color: var(--primary);
+            margin-top: 48px;
+            margin-bottom: 24px;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        p {
+            margin-bottom: 20px;
+            color: var(--text-sec);
+            font-size: 16px;
+        }
+
+        ul {
+            margin-left: 24px;
+            margin-bottom: 24px;
+            color: var(--text-sec);
+        }
+
+        li {
+            margin-bottom: 12px;
+        }
+
+        strong {
+            color: var(--text-main);
+        }
+
+        .update-date {
+            text-align: center;
+            color: var(--text-sec);
+            opacity: 0.6;
+            margin-bottom: 40px;
+            font-size: 14px;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            margin-bottom: 40px;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.3s;
+        }
+
+        .back-link:hover {
+            transform: translateX(-5px);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px;
+                border-radius: 20px;
+            }
+
+            h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gradient-bg"></div>
+    <div class="container">
+        <a href="index.html" class="back-link">← 返回首页</a>
+        <h1>Sipra 隐私政策</h1>
+        <p class="update-date">最后更新：2025年1月26日</p>
+
+        <h2>1. 信息收集</h2>
+        <p>Sipra 致力于保护您的隐私。我们收集以下信息：</p>
+        <ul>
+            <li><strong>饮品数据</strong>：饮水量、咖啡因摄入量、酒精摄入量、饮水记录时间等</li>
+            <li><strong>设备信息</strong>：设备型号、操作系统版本、唯一设备标识符</li>
+            <li><strong>使用数据</strong>：应用使用频率、功能使用情况</li>
+        </ul>
+        <p>所有数据均存储在您的设备本地，我们不会将您的个人饮品数据上传至我们的服务器。</p>
+
+        <h2>2. 数据使用</h2>
+        <p>我们使用收集的信息用于：</p>
+        <ul>
+            <li>提供应用核心功能（饮水追踪、数据统计、能量建议）</li>
+            <li>在您的 iPhone、Apple Watch 和 Widget 之间同步数据（使用 App Groups）</li>
+            <li>改善应用功能和用户体验</li>
+            <li>生成个性化饮品与能量报告</li>
+        </ul>
+
+        <h2>3. 数据共享</h2>
+        <p><strong>我们不会出售、交易或出租您的个人饮品数据。</strong></p>
+        <p>仅在以下情况下，我们可能共享数据：</p>
+        <ul>
+            <li>获得您的明确同意</li>
+            <li>法律要求或保护我们的权利</li>
+            <li>与可信的第三方服务提供商合作（仅限运营必要，且受严格保密义务约束）</li>
+        </ul>
+
+        <h2>4. 数据安全</h2>
+        <p>我们采取多种安全措施保护您的信息：</p>
+        <ul>
+            <li>所有数据本地加密存储</li>
+            <li>使用 iOS Keychain 保护敏感信息</li>
+            <li>定期安全审计和更新</li>
+            <li>遵循 Apple 数据安全最佳实践</li>
+        </ul>
+
+        <h2>5. 第三方服务</h2>
+        <p>Sipra 可能使用以下第三方服务：</p>
+        <ul>
+            <li><strong>Apple App Store</strong>：应用分发和内购处理</li>
+            <li><strong>StoreKit</strong>：订阅管理（Apple 官方支付系统）</li>
+        </ul>
+        <p>这些服务有自己的隐私政策，我们建议您查阅其条款。</p>
+
+        <h2>6. 咖啡因和酒精追踪声明</h2>
+        <p><strong>重要提示：</strong></p>
+        <ul>
+            <li>BAC（血液酒精浓度）计算结果仅供参考，不构成医疗或法律建议</li>
+            <li>个体代谢率存在差异，计算结果可能与实际值存在偏差</li>
+            <li>本应用不鼓励过量饮酒，请理性饮酒</li>
+            <li>酒后严禁驾车，请遵守当地法律法规</li>
+        </ul>
+
+        <h2>7. 您的权利</h2>
+        <p>您对自己的数据拥有完全控制权：</p>
+        <ul>
+            <li><strong>访问</strong>：随时查看应用内所有数据</li>
+            <li><strong>删除</strong>：通过应用设置清除所有数据</li>
+            <li><strong>导出</strong>：通过邮件联系我们获取数据副本</li>
+            <li><strong>选择退出</strong>：随时卸载应用停止数据收集</li>
+        </ul>
+
+        <h2>8. 儿童隐私</h2>
+        <p>Sipra 不面向 13 岁以下儿童。我们不会故意收集未满 13 岁儿童的个人信息。如发现此类情况，我们将立即删除。</p>
+
+        <h2>9. 政策变更</h2>
+        <p>我们可能不时更新本隐私政策。重大变更时，我们会通过应用内通知或邮件告知您。继续使用应用即表示您接受修订后的政策。</p>
+
+        <h2>10. 联系我们</h2>
+        <p>如有任何隐私相关问题或疑问，请通过以下方式联系我们：</p>
+        <ul>
+            <li>邮件：<a href="mailto:privacy@sipra.app">privacy@sipra.app</a></li>
+            <li>应用内：设置 → 帮助与反馈</li>
+        </ul>
+
+        <p style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 0.9em;">
+            本隐私政策自 2025年1月26日起生效。
+        </p>
+    </div>
+</body>
+
+</html>
