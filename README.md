@@ -53,15 +53,15 @@ docs/
 ### 更改品牌信息
 
 **index.html** 中搜索并替换：
-- `support@hydra.app` → 您的邮箱
-- `@hydraapp` → 您的社交媒体账号
+- `support@sipra.vip` → 您的邮箱
+- `@sipraapp` → 您的社交媒体账号
 - App Store 链接（上架后添加）
 
 ### 更新法律声明
 
 **privacy.html** 和 **terms.html** 中的联系信息：
 ```html
-<a href="mailto:support@hydra.app">support@hydra.app</a>
+<a href="mailto:support@sipra.vip">support@sipra.vip</a>
 ```
 
 ## 🎨 自定义样式
