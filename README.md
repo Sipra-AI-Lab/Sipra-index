@@ -34,7 +34,7 @@ docs/
    - 点击 Save
 
 3. **访问网站**
-   - 地址：`https://yourname.github.io/hydra/`
+   - 地址：`https://sipra-ai-lab.github.io/Sipra-index/`
 
 ### 方式二：通过 docs/ 文件夹
 
@@ -105,16 +105,16 @@ background: linear-gradient(135deg, #4A90E2, #00D4AA);
 
 ### 中国区 (中文)
 ```
-Privacy Policy URL: https://yourname.github.io/hydra/privacy.html
-Terms of Use URL: https://yourname.github.io/hydra/terms.html
-Support URL: https://yourname.github.io/hydra/index.html
+Privacy Policy URL: https://sipra-ai-lab.github.io/Sipra-index/privacy.html
+Terms of Use URL: https://sipra-ai-lab.github.io/Sipra-index/terms.html
+Support URL: https://sipra-ai-lab.github.io/Sipra-index/index.html
 ```
 
 ### 国际区 (English)
 ```
-Privacy Policy URL: https://yourname.github.io/hydra/privacy_en.html
-Terms of Use URL: https://yourname.github.io/hydra/terms_en.html
-Support URL: https://yourname.github.io/hydra/index_en.html
+Privacy Policy URL: https://sipra-ai-lab.github.io/Sipra-index/privacy_en.html
+Terms of Use URL: https://sipra-ai-lab.github.io/Sipra-index/terms_en.html
+Support URL: https://sipra-ai-lab.github.io/Sipra-index/index_en.html
 ```
 
 ### 其他地区
@@ -132,6 +132,6 @@ Support URL: https://yourname.github.io/hydra/index_en.html
 ## 🔗 常用链接
 
 部署后，在 App Store Connect 中添加：
-- 隐私政策：`https://yourname.github.io/hydra/privacy.html`
-- 用户协议：`https://yourname.github.io/hydra/terms.html`
-- 支持页面：`https://yourname.github.io/hydra/index.html`
+- 隐私政策：`https://sipra-ai-lab.github.io/Sipra-index/privacy.html`
+- 用户协议：`https://sipra-ai-lab.github.io/Sipra-index/terms.html`
+- 支持页面：`https://sipra-ai-lab.github.io/Sipra-index/index.html`
